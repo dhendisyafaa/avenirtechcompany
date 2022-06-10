@@ -73,12 +73,15 @@
     </nav>
 
     <!-- jumbotron -->
-    <div class="row w-100 d-flex justify-content-center mt-5">
-      <div class="text-jumbotron col-sm-12 col-md-5 col-lg-9" data-aos="fade-up" data-aos-duration="800">
-        <h1 class="fw-bold text-white lh-md fw-bold">AvenirTech</h1>
-        <h4 class="fw-normal text-white fw-normal">Membantu Mensejahterakan Masyarakat</h4>
+
+    <section class="jumbotron container mx-auto">
+      <div class="row mx-auto">
+        <div class="text-jumbotron">
+          <h1 class="fw-bold text-white" data-aos="fade-up" data-aos-duration="500">AvenirTech</h1>
+          <h4 class="fw-normal text-white" data-aos="fade-up" data-aos-duration="1000">Membantu Mensejahterakan Masyarakat</h4>
+        </div>
       </div>
-    </div>
+    </section>
 
     <!-- arrow down animation -->
     <a class="div-outer d-flex justify-content-center" href="#tentang-kami" data-aos="fade-down" data-aos-duration="800">
@@ -92,11 +95,11 @@
 
     <section id="tentang-kami" class="tentang-kami pt-5 pb-5">
       <div class="row mx-auto">
-        <div class="img-tentang-kami col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-duration="1000">
+        <div class="img-tentang-kami col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="zoom-in" data-aos-duration="500">
           <img src="asset/photo/1.jfif" alt="" class="w-100">
         </div>
 
-        <div class="text-tentang-kami col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5" data-aos="fade-left" data-aos-duration="1000">
+        <div class="text-tentang-kami col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5" data-aos="fade-left" data-aos-duration="800">
            <div class="text-tentang-kami text-white mt-3 p-3">
              <h3 class="sekilas-kami fw-bolder">Sekilas Tentang Kami</h3>
              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quo velit magnam nihil, omnis odio repellat. Amet nulla neque perferendis culpa consectetur. Accusamus natus maiores ducimus vel alias ex reprehenderit eum asperiores, distinctio eius iure? Magni quae debitis nostrum cupiditate reprehenderit? Similique maxime architecto illo praesentium asperiores facere reprehenderit dolor! Dolor, blanditiis saepe placeat ratione reiciendis dolorum quo harum deserunt quod non, dolore ipsum illo porro facere voluptatem soluta culpa maiores veritatis excepturi atque? Nesciunt ducimus porro, numquam illo amet necessitatibus excepturi reiciendis. Alias, blanditiis voluptatum? Est non sint laboriosam dolore quos rem natus, accusamus unde voluptas </p>
@@ -106,6 +109,8 @@
     </section>
 
     <!-- card-anggota -->
+
+    <h2 class="text-center text-white fw-bolder p-3">Our Profile</h2>
 
     <section class="anggota-avenir mb-5">
 
@@ -123,7 +128,7 @@
               </div>
             </button>
 
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightDhendi" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas offcanvas-end offcanvas-bg" tabindex="-1" id="offcanvasRightDhendi" aria-labelledby="offcanvasRightLabel">
               <div class="offcanvas-header">
                 <h5 class="offcanvas-title text-white" id="offcanvasBottomLabel">Dhendi Syafa Athallah Putra</h5>
                 <img class="w-50" src="asset/photo/dhendi_final-removebg-preview.png" alt="">
@@ -234,7 +239,7 @@
               <img class=" bg-black" src="asset/photo/ikhlas_final-removebg-preview.png" alt="">
               <div class="card-body text-start">
                 <h5 class="mt-5 fw-bold">Ikhlas Ramdani</h5>
-                <h6 class="text-white">Data Prosessing</h6>
+                <h6 class="text-white">Data Processing</h6>
               </div>
             </button>
 
@@ -245,7 +250,7 @@
               </div>
 
               <div class="offcanvas-body">
-                <h5 class="mb-3">Data Prosessing</h5> 
+                <h5 class="mb-3">Data Processing</h5> 
                 <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore qui, consequatur veritatis tenetur, adipisci necessitatibus tempora eveniet at culpa a ipsa eos amet. Iste officia repudiandae ducimus voluptatum odit laborum minus rem, nisi beatae reiciendis sed neque, nesciunt autem quidem fugit recusandae consectetur adipisci iusto sunt pariatur perferendis ipsa. Pariatur.</h6>
               </div>
             </div>
@@ -263,7 +268,7 @@
       <div class="container mx-auto">
         <div class="row mt-5 mb-5">
           <div class="col-12 text-center text-white" data-aos="fade-down">
-            <h3 class="fw-bold">Komitmen Kami</h3>
+            <h2 class="text-center text-white fw-bolder">Komitmen Kami</h2>
           </div>
         </div>
   
@@ -297,13 +302,13 @@
 
     <!-- contact -->
 
-    <section class="container contact p-1" id="contact">
+    <section class="container contact p-1 mt-5" id="contact">
 
       <div class="header-contact">
         <h2 class="text-center text-white fw-bolder m-5">Hubungi Kami</h2>
       </div>
 
-      <div class="contact-form ps-5 pe-5 pt-5">
+      <div class="contact-form ps-5 pe-5 pt-5 mb-4">
         <form class="avenir-contact-form bg-transparent" name="avenir-contact-form">
           <input type="text" class="form-control mb-3 text-white" id="name" placeholder="Your Name" aria-describedby="name" name="name" required>
           <input type="email" class="form-control mb-3 text-white" id="email" placeholder="Email" aria-describedby="email" name="email" required>
@@ -367,11 +372,11 @@
     <section class="footer mt-3" id="footer">
       <div class="footer-text-wrap">
         <div class="social-icons text-center pt-5">
-          <a class="social-icon" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a class="social-icon" href="https://www.linkedin.com/in/pt-avenirtech-company-49663623a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
           <a class="social-icon" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a class="social-icon" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a class="social-icon" href="https://www.instagram.com/pt.avenirtech/" target="_blank"><i class="fab fa-instagram"></i></a>
           <a class="social-icon" href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a class="social-icon" href="#" target="_blank"><i class="fab fa-youtube"></i></a>>
+          <a class="social-icon" href="#" target="_blank"><i class="fab fa-youtube"></i></a>
         </div>  
           <hr>
         <p class="footer-text text-white text-center">Copyright © 2022 AvenirTech Company. All Rights Reserved</p>
